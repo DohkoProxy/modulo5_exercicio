@@ -118,7 +118,7 @@ section .news a{
     text-decoration: none;
     display: flex;
     text-align: right;
-    margin-bottom: 32px;
+    margin-bottom: 120px;
     margin-left: 635px;
     font-size: 18px;
     color: #234355;
@@ -147,6 +147,7 @@ section .sobre p{
     text-align: justify;
     font-size: 18px;
     font-weight: bolder;
+    margin-left: 12px;
 }
 
 section .sobre{
@@ -158,18 +159,21 @@ section .sobre{
 section .personagens h2{
     font-size: 42px;
     margin-bottom: 12px;
+    margin-top: 120px;
+    margin-left: 32px;
 }
 
 section .personagens h3{
     box-sizing: border-box;
     font-size: 26px;
     width: 80px;
+    margin-right: 12px;
 }
 
 section .tenchi_ryoko{        
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 8px;
     justify-content: space-evenly;
     padding: 18px 12px;
 }                
@@ -177,7 +181,7 @@ section .tenchi_ryoko{
 section .ayeka_sasami{   
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 8px;
     justify-content: space-evenly;
     padding: 18px 12px;
 }              
@@ -185,7 +189,7 @@ section .ayeka_sasami{
 section .mihoshi_washu{
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 8px;
     justify-content: space-evenly;
     padding: 18px 12px;
 }
@@ -193,7 +197,6 @@ section .mihoshi_washu{
 section .personagens img{
     height: 420px;
     width: 220px;
-    align-items: flex-end;
     object-fit: cover;
 }
 

@@ -30,6 +30,7 @@ header .container{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin-left: 32px;
 }
 
 h1 {
@@ -161,42 +162,44 @@ section .personagens h2{
 
 section .personagens h3{
     box-sizing: border-box;
-    margin-right: 23px;
+    font-size: 26px;
+    width: 80px;
 }
 
 section .tenchi_ryoko{        
-    margin-top: 34px;
-    margin-left: 65px;
-    display: inline-flex;
-    align-items: top;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-evenly;
+    padding: 18px 12px;
 }                
 
 section .ayeka_sasami{   
-    margin-top: 34px;
-    margin-left: 65px;
-    display: inline-flex;
-    align-items: top;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-evenly;
+    padding: 18px 12px;
 }              
 
 section .mihoshi_washu{
-    margin-top: 34px;
-    margin-left: 65px;
-    display: inline-flex;
-    align-items: top;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-evenly;
+    padding: 18px 12px;
 }
 
 section .personagens img{
     height: 420px;
     width: 220px;
     align-items: flex-end;
+    object-fit: cover;
 }
 
 section .personagens p{
     text-align: justify;
-    width: 280px;
+    width: 260px;
     margin-right: 23px;
 }
 
